@@ -2,11 +2,9 @@
 <h3>an online spot to swap, brag, and talk tunes</h3>
 
 <% @rekidz.each do |rekid| %>
-  <div>
-    <h1><%= rekid.name %></h1><br />
-    <i><%= rekid.items %></i><br />
+  <div class="booyah-box col-10 offset-1">
+    <h1><%= rekid.name %></h1>
+    <i><%= rekid.items %></i><br /><br />
     <p><%= rekid.description %></p><br />
   </div>
-
-    <hr />
-  <% end %>
+<% end %>
