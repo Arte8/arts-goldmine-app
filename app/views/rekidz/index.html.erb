@@ -1,0 +1,12 @@
+<h1>welcome to the g0ldminE...</h1>
+<h3>an online spot to swap, brag, and talk tunes</h3>
+
+<% @rekidz.each do |rekid| %>
+  <div>
+    <h1><%= rekid.name %></h1><br />
+    <i><%= rekid.items %></i><br />
+    <p><%= rekid.description %></p><br />
+  </div>
+
+    <hr />
+  <% end %>

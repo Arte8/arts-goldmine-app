@@ -1,0 +1,2 @@
+module RekidzHelper
+end

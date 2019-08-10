@@ -1,0 +1,2 @@
+class Rekid < ApplicationRecord
+end
