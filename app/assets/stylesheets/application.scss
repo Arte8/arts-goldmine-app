@@ -18,7 +18,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 body {
   background: image_url('gravel.png');
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+
 }
 .navbar {
   background: image_url('fancy-cushion.png');
+  box-shadow: 0px 1px 3px #2a2a2a;
+}
+.navbar-inverse .navbar-brand {
+  color: #DEBD1F;
 }
